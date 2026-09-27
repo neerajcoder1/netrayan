@@ -1,9 +1,9 @@
-# Netrayan
-
-**नेत्र + अयन — the eye's chronicle.**
-
-A working prototype for SIH26237: *forensic watermarking and leak attribution for
-broadcast-encrypted, individually-decrypted documents.*
+<div align="center">
+  <img src="public/logo.svg" alt="Netrayan Logo" width="120" />
+  <h1>Netrayan</h1>
+  <p><strong>नेत्र + अयन — the eye's chronicle.</strong></p>
+  <p><em>Cryptographic attribution and immutable decryption provenance for multi-recipient encrypted documents.</em></p>
+</div>
 
 > When one sender encrypts a document for many recipients, a leak makes every recipient an
 > equally plausible suspect. Netrayan generates a unique, invisible fingerprint **at the
@@ -11,7 +11,7 @@ broadcast-encrypted, individually-decrypted documents.*
 > recipient could produce, and commits the signed record to a tamper-evident local ledger —
 > so a single leaked file can be traced back to exactly one person.
 
-This is a demonstration build. It runs **real** cryptography and **real** watermarking —
+This is a complete proof-of-concept build. It runs **real** cryptography and **real** watermarking —
 not a mockup with fake progress bars — entirely client-side in the browser, which is what
 lets it also deploy as a static site. See [What's real vs. what's scoped
 out](#whats-real-vs-whats-scoped-out-for-a-demo) before treating any part of it as
